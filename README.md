@@ -60,7 +60,7 @@ Steps for writting network architecture
 
 ### Solverstate file
 
-
+Defining the net > Defining Hyperparameters > Solver mode(CPU or GPU)
 
 Training
 ```
