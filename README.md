@@ -38,9 +38,9 @@ This script converts image data to LMDB format
 ```
 #### Creating the network prototxt file
   
-2 Architectures. [Training](), [Deploying]()
+2 Architectures. [Training](https://github.com/madhu-korada/caffe/blob/master/examples/cifar10/madhu/train.prototxt), [Deploying](https://github.com/madhu-korada/caffe/blob/master/examples/cifar10/madhu/deploy.prototxt)
  
-Reference network architecture [link]()
+Reference network architecture [link](https://github.com/madhu-korada/caffe/blob/master/examples/cifar10/madhu/Cifar%20network.PNG)
 
 Steps for writting network architecture
   
