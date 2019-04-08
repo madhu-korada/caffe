@@ -4,9 +4,13 @@ CIFAR 10 in Caffe
 
 # Executing command
 
-Clone the repository
+Clone the repository and build
 ```
 git clone https://github.com/madhu-korada/caffe.git
+mkdir build
+cd build
+cmake ..
+make all
 ```
 go to the location
 ```
