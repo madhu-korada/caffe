@@ -17,8 +17,13 @@ go to the location
 cd build/examples/classification
 ```
 use this command to do the classification task
+moving all the required files from caffe/examples/cifar10/madhu to caffe/build/examples/cpp_classification
 ```
-./build/examples/cifar10/cpp_classification ./examples/cifar10/madhu/deploy.prototxt ./examples/cifar10/madhu/cifar10_full_iter_10375.caffemodel ./examples/cifar10/madhu/mean.binaryproto ./examples/cifar10/madhu/batches.meta.txt./examples/cifar10/madhu/bird.jpg
+classification deploy.prototxt cifar10_full_iter_10375.caffemodel mean.binaryproto batches.meta.txt bird.jpg
+```
+or
+```
+./build/examples/cifar10/cpp_classification/classification ./examples/cifar10/madhu/deploy.prototxt ./examples/cifar10/madhu/cifar10_full_iter_10375.caffemodel ./examples/cifar10/madhu/mean.binaryproto ./examples/cifar10/madhu/batches.meta.txt./examples/cifar10/madhu/bird.jpg
 ```
 sample_image 
 
