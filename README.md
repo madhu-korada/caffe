@@ -58,11 +58,11 @@ Steps for writting network architecture
 
 5. 2 bottoms for Softmax layer
 
-### Solverstate file
+#### Solverstate file
 
 Defining the net > Defining Hyperparameters > Solver mode(CPU or GPU)
 
-Training
+#### Training
 ```
 ./examples/cifar10/madhu/train_quick.sh
 ```
