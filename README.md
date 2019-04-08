@@ -44,7 +44,7 @@ This script converts image data to LMDB format
   
 2 Architectures. [Training](https://github.com/madhu-korada/caffe/blob/master/examples/cifar10/madhu/train.prototxt), [Deploying](https://github.com/madhu-korada/caffe/blob/master/examples/cifar10/madhu/deploy.prototxt)
  
-Reference network architecture [link](https://github.com/madhu-korada/caffe/blob/master/examples/cifar10/madhu/Cifar%20network.PNG)
+Reference network architecture [link](https://github.com/madhu-korada/caffe/blob/master/examples/cifar10/madhu/cifar%20network.jpeg) [link](https://github.com/madhu-korada/caffe/blob/master/examples/cifar10/madhu/Cifar%20network.PNG)
 
 Steps for writting network architecture
   
