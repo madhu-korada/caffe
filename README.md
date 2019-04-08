@@ -38,9 +38,9 @@ This script converts image data to LMDB format
 ```
 #### Creating the network prototxt file
   
-2 Architectures. Training, Deploying
+2 Architectures. [Training](), [Deploying]()
  
-Reference network architecture (link)
+Reference network architecture [link]()
 
 Steps for writting network architecture
   
@@ -53,6 +53,9 @@ Steps for writting network architecture
 4. Ending with SoftMaxLoss layer (For Deploy network only SoftMax)
 
 5. 2 bottoms for Softmax layer
+
+### Solverstate file
+
 
 
 Training
