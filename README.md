@@ -56,7 +56,7 @@ Steps for writting network architecture
 
 4. Ending with SoftMaxLoss layer (For Deploy network only SoftMax)
 
-5. 2 bottoms for Softmax layer
+5. 2 bottoms for Softmax layer For training network
 
 #### Solverstate file
 
