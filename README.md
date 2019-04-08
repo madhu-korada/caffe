@@ -18,8 +18,12 @@ cd build/examples/classification
 ```
 use this command to do the classification task
 ```
-classification deploy.prototxt cifar10_full_iter_36.caffemodel mean.binaryproto batches.meta.txt cat.jpg
+./build/examples/cifar10/cpp_classification ./examples/cifar10/madhu/deploy.prototxt ./examples/cifar10/madhu/cifar10_full_iter_10375.caffemodel ./examples/cifar10/madhu/mean.binaryproto ./examples/cifar10/madhu/batches.meta.txt./examples/cifar10/madhu/bird.jpg
 ```
+sample_image 
+
+![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/prediction.png)
+
 Above mentioned classification file takes 5 arguments as followed. 
 1. network prototxt file
 2. caffemodel file
@@ -69,4 +73,5 @@ Defining the net > Defining Hyperparameters > Solver mode(CPU or GPU)
 
 Since i used CPU it took a lot of time for me to train, so i stopped at 1000 iteration. Loss didn't seem to go down much till 1000 iterations. Learning rate was kept 0.001. 
 
+![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training.png)
 
