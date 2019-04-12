@@ -143,10 +143,34 @@ source ~/.bashrc
 nvcc -V
 ```
 
-OpenCV
+OpenCV 3.X
+```
+cd~
+git clone https://github.com/anujonthemove/opencv3-installation.git
+cd opencv3-installation 
+sh install-opencv.sh
+```
 
 
 CAFFE
 
+Installing the Dependencies
+
+```
+sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev \
+libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-compiler
+sudo apt-get install -y --no-install-recommends libboost-all-dev
+```
+clone the repository
+```
+git clone https://github.com/BVLC/caffe
+cd caffe
+```
+
+make a copy of the config file
+
+```
+cp Makefile.config.example Makefile.config
+```
 
 
