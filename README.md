@@ -92,36 +92,56 @@ Setup Details
  - cuDNN 7.4
 
 Installing drivers
-`
+```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
 sudo apt-get install git curl cmake
-`
+```
 Adding proprietary graphic drivers PPA to system
-`
+```
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
-`
+```
 Go too virtual console (Alt + ctrl + F1)
 
 Installing Drivers
-`
+```
 sudo apt-get install nvidia-384
 sudo reboot
-`
+```
 checking
-`
+```
 nvidia-smi
-`
+```
 
-CUDA
-`
+Download CUDA from nvidia cuda archive website
+```
 cd ~/Downloads
-`
+sudo sh cuda_9.0.176_384.81_linux.run
+sudo sh cuda_9.0.176.1_linux.run
+similarly run for all the downloaded patches
+```
 
 cuDNN
-
+```
+sudo tar -xzvf cudnn-9.0-linux-x64-v7.4.1.5.tgz
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+```
+add these in bashrc file
+```
+export CUDA_HOME=/usr/local/cuda
+export PATH=/usr/local/cuda/bin:$PATH
+export CPATH=/usr/local/cuda/include:$CPATH
+export LIBRARY_PATH=/usr/local/cuda/lib64:$LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
+```
+```
+source ~/.bashrc
+nvcc -V
+```
 
 OpenCV
 
