@@ -173,4 +173,6 @@ make a copy of the config file
 cp Makefile.config.example Makefile.config
 ```
 
+follow this [link](https://medium.com/@anujonthemove/deep-learning-environment-setup-on-ubuntu-16-04-83078e1cba1f) to setup opencv and cuda 
+follow this [link](https://chunml.github.io/ChunML.github.io/project/Installing-Caffe-Ubuntu/) for installing caffe
 
