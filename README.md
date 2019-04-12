@@ -80,3 +80,30 @@ Since i used CPU it took a lot of time for me to train, so i stopped at 1000 ite
 
 ![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training.png)
 
+
+## Installation Steps
+
+Setup Details
+
+ - Ubuntu 16.04
+
+ - CUDA 9.0
+
+ - cuDNN 7.4
+
+Installing drivers
+
+
+CUDA
+
+
+cuDNN
+
+
+OpenCV
+
+
+CAFFE
+
+
+
