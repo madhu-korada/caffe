@@ -92,10 +92,33 @@ Setup Details
  - cuDNN 7.4
 
 Installing drivers
+`
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get install git curl cmake
+`
+Adding proprietary graphic drivers PPA to system
+`
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+`
+Go too virtual console (Alt + ctrl + F1)
 
+Installing Drivers
+`
+sudo apt-get install nvidia-384
+sudo reboot
+`
+checking
+`
+nvidia-smi
+`
 
 CUDA
-
+`
+cd ~/Downloads
+`
 
 cuDNN
 
