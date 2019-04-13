@@ -16,7 +16,7 @@ make all
 use this command to do the classification task
 
 ```
-./build/examples/cpp_classification/classification deploy.prototxt cifar10_full_iter_100000.caffemodel mean.binaryproto batches.meta.txt dog.jpg
+./build/examples/cpp_classification/classification deploy.prototxt cifar10_full_iter_100000.caffemodel mean.binaryproto labels.txt dog.jpg
 ```
 sample_images
 
