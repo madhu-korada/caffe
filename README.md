@@ -23,11 +23,15 @@ classification deploy.prototxt cifar10_full_iter_10375.caffemodel mean.binarypro
 ```
 or
 ```
-./build/examples/cpp_classification/classification deploy.prototxt cifar10_full_iter_10375.caffemodel mean.binaryproto batches.meta.txt bird.jpg
+./build/examples/cpp_classification/classification deploy.prototxt cifar10_full_iter_100000.caffemodel mean.binaryproto batches.meta.txt bird.jpg
 ```
-sample_image 
+sample_images
 
 ![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/prediction.png)
+
+![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/prediction2.png)
+
+![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/prediction3.png)
 
 Above mentioned classification file takes 5 arguments as followed. 
 1. network prototxt file
