@@ -12,10 +12,7 @@ cd build
 cmake ..
 make all
 ```
-go to the location
-```
-cd build/examples/classification
-```
+
 use this command to do the classification task
 
 ```
