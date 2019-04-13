@@ -78,15 +78,18 @@ Defining the net > Defining Hyperparameters > RMSprop optimizer > Solver mode(CP
 
 accuracy at 50000 iteration 74.2 % 
 
-accuracy at 200000 iterations 76.19 %
-
-accuracy at 440000 iterations 78.01 %
 
 ![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training50000.png)
 
 
-![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training 76.19.png)
 
+accuracy at 200000 iterations 76.19 %
+
+
+![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training76.png)
+
+
+accuracy at 440000 iterations 78.01 %
 
 ![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training.png)
 
