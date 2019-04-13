@@ -29,6 +29,9 @@ sample_images
 
 ![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/prediction3.png)
 
+As we have seen our model is able to detect some images with very good accuracy and can not able to predict unseen images. 
+
+
 Above mentioned classification file takes 5 arguments as followed. 
 1. network prototxt file
 2. caffemodel file
