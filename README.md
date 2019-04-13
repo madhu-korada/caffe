@@ -19,15 +19,11 @@ cd build/examples/classification
 use this command to do the classification task
 
 ```
-classification deploy.prototxt cifar10_full_iter_10375.caffemodel mean.binaryproto batches.meta.txt bird.jpg
-```
-or
-```
-./build/examples/cpp_classification/classification deploy.prototxt cifar10_full_iter_100000.caffemodel mean.binaryproto batches.meta.txt bird.jpg
+./build/examples/cpp_classification/classification deploy.prototxt cifar10_full_iter_100000.caffemodel mean.binaryproto batches.meta.txt dog.jpg
 ```
 sample_images
 
-![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/prediction.png)
+![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/prediction_dog.png)
 
 ![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/prediction2.png)
 
