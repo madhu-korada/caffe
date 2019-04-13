@@ -17,13 +17,13 @@ go to the location
 cd build/examples/classification
 ```
 use this command to do the classification task
-moving all the required files from caffe/examples/cifar10/madhu to caffe/build/examples/cpp_classification
+
 ```
 classification deploy.prototxt cifar10_full_iter_10375.caffemodel mean.binaryproto batches.meta.txt bird.jpg
 ```
 or
 ```
-./build/examples/cifar10/cpp_classification/classification ./examples/cifar10/madhu/deploy.prototxt ./examples/cifar10/madhu/cifar10_full_iter_10375.caffemodel ./examples/cifar10/madhu/mean.binaryproto ./examples/cifar10/madhu/batches.meta.txt./examples/cifar10/madhu/bird.jpg
+./build/examples/cpp_classification/classification deploy.prototxt cifar10_full_iter_10375.caffemodel mean.binaryproto batches.meta.txt bird.jpg
 ```
 sample_image 
 
@@ -69,23 +69,34 @@ Steps for writting network architecture
 
 #### Solverstate file
 
-Defining the net > Defining Hyperparameters > Solver mode(CPU or GPU)
+Defining the net > Defining Hyperparameters > RMSprop optimizer > Solver mode(CPU or GPU)
 
 #### Training
 ```
 ./examples/cifar10/madhu/train_quick.sh
 ```
 
-Since i used CPU it took a lot of time for me to train, so i stopped at 1000 iteration. Loss didn't seem to go down much till 1000 iterations. Learning rate was kept 0.001. 
+accuracy at 50000 iteration 74.2 % 
+
+accuracy at 200000 iterations 76.19 %
+
+accuracy at 440000 iterations 78.01 %
+
+![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training50000.png)
+
+
+![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training 76.19.png)
+
 
 ![alt text](https://github.com/madhu-korada/caffe/blob/master/Pictures/training.png)
-
 
 ## Installation Steps
 
 Setup Details
 
  - Ubuntu 16.04
+ 
+ - Geforce GTX 1070
 
  - CUDA 9.0
 
